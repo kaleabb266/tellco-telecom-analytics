@@ -135,6 +135,7 @@ class ExperienceClusterer:
         X_scaled, features = self.prepare_features(df)
         
         # Fit clustering
+        self.kmeans.fit(X_scaled)
         df['cluster'] = self.kmeans.fit_predict(X_scaled)
         
         # Get cluster statistics
@@ -151,9 +152,9 @@ class ExperienceClusterer:
             'cluster_stats': cluster_stats,
             'cluster_sizes': df['cluster'].value_counts(),
             'cluster_centers': cluster_centers,
-            'clustered_data': df
+            'clustered_data': df,
+            'kmeans': self.kmeans
         }
-
 
 
 
