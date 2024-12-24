@@ -125,8 +125,8 @@ plt.show()
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/telecom-analysis.git
-cd telecom-analysis
+git clone https://github.com/kaleabb266/tellco-telecom-analytics.git
+cd tellco-telecom-analytics
 ```
 
 2. **Create Virtual Environment**
@@ -194,9 +194,9 @@ clusters = analyzer.cluster_users(engagement_scores, experience_scores)
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/...`)
+3. Commit your changes (`git commit -m 'Addedcommmit message '`)
+4. Push to the branch (`git push origin feature/...`)
 5. Open a Pull Request
 
 ## 📄 License
@@ -211,5 +211,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
-Project Link: [https://github.com/yourusername/telecom-analysis](https://github.com/yourusername/telecom-analysis)
+kaleab Bekele - kaleabb266@gmail.com
+Project Link: [https://github.com/kaleabb266/tellco-telecom-analytics)
